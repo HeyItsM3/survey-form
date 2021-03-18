@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Montserrat: 400,500,700,800"
+    /> 
+    <link rel="stylesheet" href="styles.css" />
+    <title>Survey Form</title>
+</head>
+<body>
+
+        <h1 id="title"> Books </h1>
+
+        <p id="description">Some books that may help you</p>
+
+        <form id="survey-form">
+            <label for="name-label"> Name </label>
+            <input type="text" id="name"  placeholder="Your Name" class="form-inputs"  required>
+            <br>
+
+            <label for="email-label"> E-mail </label>
+            <input type="email" name="email" id="email" placeholder="your@email.com"  class="form-inputs"  required>
+            <br>
+
+            <label for="number-label" id="age"> Age </label>
+            <input id="number" type="number" name="number" min="18" max="100" placeholder="Your Age" class="form-inputs" required>
+            <br>
+
+            <p>Books recently read:</p>
+                <select id="dropdown" class="form-inputs">
+                
+                <option value="default">Nothing</option>
+
+                <option value="Mark-Manson">The Subtle Art of Not Giving a F*ck</option>
+
+                <option value="Mark-Manson-2"> Everything Is F*cked: A Book About Hope</option>
+
+                <option value="Ryan-Holiday">Trust Me I'm Lying</option>
+
+                <option value="Mihaly-C">Flow The Psychology Of Optimal Experience</option>
+                    
+                <option value="James-Clear">Atomic Habits</option>
+              
+            </select>
+
+            <p>Which area do you like the most?</p>
+
+                <input type="radio" name="book-style" value="1" class="i-radio">Personal Development</input>
+                <br>
+
+                <input type="radio" name="book-style" value="2" class="i-radio">Business and Economics</input>
+                <br>
+
+                <input type="radio" name="book-style" value="3" class="i-radio">Engineering and Exact Sciences</input>
+                <br>
+
+                <input type="radio" name="book-style" value="4" class="i-radio">Computing and Systems</input>
+                <br>
+
+                <input type="radio" name="book-style" value="5" class="i-radio">Law and Social Sciences</input>
+                <br>
+
+            <p>Which autors do you like the most?</p>    
+
+                <input type="checkbox" name="autor" value="1" class="checkbox">Mark Manson</input>
+                <br>
+
+                <input type="checkbox" name="autor" value="2" class="checkbox">Ryan Holiday</input>
+                <br>
+
+                <input type="checkbox" name="autor" value="3" class="checkbox">James Clear</input>
+                <br>
+
+                <input type="checkbox" name="autor" value="4" class="checkbox">Tim Ferris</input>
+                <br>
+
+                <input type="checkbox" name="autor" value="5" class="checkbox">Seth Godin</input>
+                <br>
+                
+                <textarea id="comment" rows="4" cols="40">Add Your Comment Here</textarea>
+                <br>
+
+            <input id="submit" type="submit" value="Submit">
+                
+        </form>
+   
+</html>

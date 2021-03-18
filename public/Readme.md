@@ -1,0 +1,1 @@
+<h2>Simple survey form</h2>
