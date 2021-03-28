@@ -9,7 +9,6 @@
     href="https://fonts.googleapis.com/css?family=Montserrat: 400,500,700,800"
     /> 
     <link rel="stylesheet" href="styles.css" />
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <title>Survey Form</title>
 </head>
 <body>
@@ -19,15 +18,15 @@
         <p id="description">Some books that may help you</p>
 
         <form id="survey-form">
-            <label for="name-label"> Name </label>
+            <label for="name-label" id="name-label"> Name </label>
             <input type="text" id="name"  placeholder="Your Name" class="form-inputs"  required>
             <br>
 
-            <label for="email-label"> E-mail </label>
+            <label for="email-label" id="email-label"> E-mail </label>
             <input type="email" name="email" id="email" placeholder="your@email.com"  class="form-inputs"  required>
             <br>
 
-            <label for="number-label" id="age"> Age </label>
+            <label for="number-label" id="number-label"> Age </label>
             <input id="number" type="number" name="number" min="18" max="100" placeholder="Your Age" class="form-inputs" required>
             <br>
 
@@ -88,5 +87,6 @@
             <input id="submit" type="submit" value="Submit">
                 
         </form>
-   
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
 </html>
